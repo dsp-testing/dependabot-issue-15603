@@ -104,9 +104,9 @@ dev = [
 [package.metadata.requires-dev]
 dev = [
     { name = "celery-types" },
-    { name = "django-stubs", extras = ["compatible-mypy"], specifier = ">=6" },
+    { name = "django-stubs", extras = ["compatible-mypy"], specifier = ">=6.1.0" },
     { name = "djangorestframework-stubs", extras = ["compatible-mypy"], specifier = "==3.17.0" },
-    { name = "mypy", specifier = ">=2,<2.2" },
+    { name = "mypy", specifier = ">=2" },
 ]
 
 [[package]]
